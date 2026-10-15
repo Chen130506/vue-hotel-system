@@ -49,6 +49,24 @@ npm run preview   # 本地预览打包结果
 
 ---
 
+## 部署说明
+
+本项目自带一个 json-server 模拟后端，本地开发时需要额外起一个 Node 进程。
+为了让它能作为**纯静态站点**部署（Vercel / Netlify / GitHub Pages 均可），`src/request.js` 做了一层切换：
+
+| 场景 | 数据来源 |
+| --- | --- |
+| 本地开发 `npm run dev` | `http://localhost:3000`，即 json-server（真实 HTTP 请求） |
+| `npm run build` 后部署到静态托管 | 未配置 `VITE_API_BASE` 时，自动切到内置数据源：以 `db.json` 为初始快照，数据写入 localStorage，刷新不丢失 |
+
+也就是说，**部署到静态托管后访客打开即可直接使用，不需要任何服务端**。演示数据保存在访客自己的浏览器里，想恢复初始状态清一下该站点的本地存储即可。
+
+如果之后接了真实后端，只要在部署平台配置环境变量 `VITE_API_BASE=https://你的后端地址`，就会自动改回走真实 HTTP 请求，**前端业务代码一行都不用改**。
+
+> 路由使用 Hash 模式（`#/Home/...`），因此静态托管无需配置任何 URL 重写规则。
+
+---
+
 ## 功能模块
 
 | 页面 | 路由 | 说明 |
@@ -106,8 +124,10 @@ src/
 ├── main.js                  # 应用入口，注册 Element Plus 与路由
 ├── App.vue                  # 根组件
 ├── router.js                # 路由表 + 全局前置守卫
-├── request.js               # Axios 实例封装
+├── request.js               # Axios 实例封装（本地开发走 json-server，生产构建走内置数据源）
 ├── style.css
+├── api/
+│   └── mockAdapter.js       # 线上演示模式的数据层：内置数据 + localStorage，无需服务端
 ├── utils/
 │   ├── eventBus.js          # 跨组件事件总线
 │   ├── bookingSync.js       # 预订记录 ↔ 房间状态联动（入住 / 退房回写预订状态）

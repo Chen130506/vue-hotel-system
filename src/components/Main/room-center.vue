@@ -37,6 +37,11 @@
 </template>
   
 <script>
+// 统一通过封装后的 axios 实例发请求。
+// 此前本文件漏了这一行 import，运行时 request 未定义、请求直接抛错，
+// 导致房态中心的房间列表始终为空（页面显示「没有找到符合条件的房间」）。
+import request from '../../request'
+
 export default {
   data() {
     return {
