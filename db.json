@@ -1,0 +1,682 @@
+{
+  "rooms": [
+    {
+      "number": "101",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": true,
+      "id": "1c8b",
+      "checkoutTime": null
+    },
+    {
+      "number": "102",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": true,
+      "guestInfo": {
+        "name": "小王",
+        "contact": "12345678900",
+        "checkInTime": "2026-01-16 17:20"
+      },
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "efcf",
+      "checkoutTime": null
+    },
+    {
+      "number": "103",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "bfc2",
+      "checkoutTime": null
+    },
+    {
+      "number": "104",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": true,
+      "id": "4234",
+      "checkoutTime": null
+    },
+    {
+      "number": "105",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "1528",
+      "checkoutTime": null
+    },
+    {
+      "number": "106",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "427d"
+    },
+    {
+      "number": "107",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "f1c0"
+    },
+    {
+      "number": "108",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "11b2"
+    },
+    {
+      "number": "109",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "412b"
+    },
+    {
+      "number": "110",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "67ce"
+    },
+    {
+      "number": "111",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "0c8b"
+    },
+    {
+      "number": "112",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "276b"
+    },
+    {
+      "number": "113",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "79b9"
+    },
+    {
+      "number": "114",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "a02a"
+    },
+    {
+      "number": "115",
+      "type": "double-bed",
+      "typeName": "大床房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "021f"
+    },
+    {
+      "number": "116",
+      "type": "double-bed",
+      "typeName": "大床房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "4908"
+    },
+    {
+      "number": "117",
+      "type": "e-sports",
+      "typeName": "电竞房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "93cc"
+    },
+    {
+      "number": "118",
+      "type": "e-sports",
+      "typeName": "电竞房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "64d1"
+    },
+    {
+      "number": "119",
+      "type": "presidential",
+      "typeName": "总统套房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "dec7"
+    },
+    {
+      "number": "120",
+      "type": "presidential",
+      "typeName": "总统套房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "8988"
+    },
+    {
+      "number": "201",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "4f1e"
+    },
+    {
+      "number": "202",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "a2c1"
+    },
+    {
+      "number": "203",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "062e"
+    },
+    {
+      "number": "204",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "23fb"
+    },
+    {
+      "number": "205",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "e3b7"
+    },
+    {
+      "number": "206",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "ab00"
+    },
+    {
+      "number": "207",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "c15d"
+    },
+    {
+      "number": "208",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "8e9c"
+    },
+    {
+      "number": "209",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "870e"
+    },
+    {
+      "number": "210",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "0ecc"
+    },
+    {
+      "number": "211",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "a282"
+    },
+    {
+      "number": "212",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "b131"
+    },
+    {
+      "number": "213",
+      "type": "single",
+      "typeName": "单人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "613a"
+    },
+    {
+      "number": "214",
+      "type": "double",
+      "typeName": "双人房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "2e48"
+    },
+    {
+      "number": "215",
+      "type": "double-bed",
+      "typeName": "大床房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "f322"
+    },
+    {
+      "number": "216",
+      "type": "double-bed",
+      "typeName": "大床房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "892f"
+    },
+    {
+      "number": "217",
+      "type": "e-sports",
+      "typeName": "电竞房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "486a"
+    },
+    {
+      "number": "218",
+      "type": "e-sports",
+      "typeName": "电竞房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "8090"
+    },
+    {
+      "number": "219",
+      "type": "presidential",
+      "typeName": "总统套房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "6e6d"
+    },
+    {
+      "number": "220",
+      "type": "presidential",
+      "typeName": "总统套房",
+      "isOccupied": false,
+      "guestInfo": null,
+      "isCleaned": true,
+      "needsMaintenance": false,
+      "isBooked": false,
+      "id": "9cbe"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "email": "admin@hotel.com",
+      "phone": "13800138000",
+      "registerTime": "2025-01-06 10:30:00",
+      "role": "admin",
+      "status": "active",
+      "isLogin": false
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "123456",
+      "email": "user1@hotel.com",
+      "phone": "13800138001",
+      "registerTime": "2025-01-06 11:00:00",
+      "role": "user",
+      "status": "active",
+      "isLogin": false
+    },
+    {
+      "id": "3",
+      "username": "1",
+      "password": "123123",
+      "email": "1@qq.com",
+      "phone": "12312312312",
+      "registerTime": "2026/1/8 13:13:12",
+      "role": "user",
+      "status": "active",
+      "isLogin": false
+    },
+    {
+      "id": "4",
+      "username": "a",
+      "password": "123456",
+      "email": "awc@qq.com",
+      "phone": "11111111111",
+      "registerTime": "2026/1/8 15:01:29",
+      "role": "user",
+      "status": "active",
+      "isLogin": true
+    },
+    {
+      "id": "5",
+      "username": "qwe",
+      "password": "123456",
+      "email": "awc@qq.com",
+      "phone": "22222222222",
+      "registerTime": "2026/1/12 15:54:18",
+      "role": "user",
+      "status": "active",
+      "isLogin": true
+    }
+  ],
+  "booked": [
+    {
+      "id": "be55",
+      "name": "小王",
+      "phone": "13512345678",
+      "bookroom": "101",
+      "checkInTime": "2026-01-16",
+      "checkOutTime": "2026-01-24",
+      "remarks": "希望有安静的环境",
+      "status": "未入住",
+      "booktime": "2026/1/16"
+    },
+    {
+      "id": "ef0c",
+      "name": "小李",
+      "phone": "18787654321",
+      "bookroom": "104",
+      "checkInTime": "2026-01-17",
+      "checkOutTime": "2026-01-29",
+      "remarks": "",
+      "status": "未入住",
+      "booktime": "2026/1/16"
+    }
+  ],
+  "dailyStats": {
+    "item": {
+      "checkInStats": [
+        {
+          "date": "2026-01-06",
+          "count": 5
+        },
+        {
+          "date": "2026-01-07",
+          "count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "count": 4
+        },
+        {
+          "date": "2026-01-09",
+          "count": 6
+        },
+        {
+          "date": "2026-01-10",
+          "count": 2
+        },
+        {
+          "date": "2026-01-11",
+          "count": 7
+        },
+        {
+          "date": "2026-01-12",
+          "count": 4
+        }
+      ],
+      "checkOutStats": [
+        {
+          "date": "2026-01-06",
+          "count": 4
+        },
+        {
+          "date": "2026-01-07",
+          "count": 6
+        },
+        {
+          "date": "2026-01-08",
+          "count": 2
+        },
+        {
+          "date": "2026-01-09",
+          "count": 5
+        },
+        {
+          "date": "2026-01-10",
+          "count": 3
+        },
+        {
+          "date": "2026-01-11",
+          "count": 4
+        },
+        {
+          "date": "2026-01-12",
+          "count": 6
+        },
+        {
+          "date": "2026-01-15",
+          "count": 0
+        }
+      ]
+    },
+    "checkInStats": [
+      {
+        "date": "2026-01-06",
+        "count": 5
+      },
+      {
+        "date": "2026-01-07",
+        "count": 3
+      },
+      {
+        "date": "2026-01-08",
+        "count": 4
+      },
+      {
+        "date": "2026-01-09",
+        "count": 6
+      },
+      {
+        "date": "2026-01-10",
+        "count": 2
+      },
+      {
+        "date": "2026-01-11",
+        "count": 7
+      },
+      {
+        "date": "2026-01-12",
+        "count": 4
+      },
+      {
+        "date": "2026-01-13",
+        "count": 1
+      },
+      {
+        "date": "2026-01-14",
+        "count": 5
+      },
+      {
+        "date": "2026-01-15",
+        "count": 0
+      }
+    ],
+    "checkOutStats": [
+      {
+        "date": "2026-01-06",
+        "count": 4
+      },
+      {
+        "date": "2026-01-07",
+        "count": 6
+      },
+      {
+        "date": "2026-01-08",
+        "count": 2
+      },
+      {
+        "date": "2026-01-09",
+        "count": 5
+      },
+      {
+        "date": "2026-01-10",
+        "count": 3
+      },
+      {
+        "date": "2026-01-11",
+        "count": 4
+      },
+      {
+        "date": "2026-01-12",
+        "count": 6
+      },
+      {
+        "date": "2026-01-13",
+        "count": 2
+      },
+      {
+        "date": "2026-01-14",
+        "count": 0
+      }
+    ]
+  }
+}
